@@ -1,0 +1,26 @@
+header{
+    background-color:var(--gray-900);
+    height: 13.25rem;
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0 7.625rem;
+  
+   
+
+}#headerContainer{
+    width: 100%;
+    max-width: 70rem;  
+    height: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    
+}#headerContainer button{
+
+    width: 9.5rem;
+    background-color: var(--green-500);
+    color: var(--white);
+    font-weight: 900;
+    line-height: 160%;
+    border-radius:6px;
+    
+}

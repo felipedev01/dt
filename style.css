@@ -1,4 +1,4 @@
-header{
+body > header {
     background-color:var(--gray-900);
     height: 13.25rem;
     display: flex;
@@ -7,20 +7,81 @@ header{
   
    
 
-}#headerContainer{
+}
+
+
+#headerContainer {
     width: 100%;
     max-width: 70rem;  
     height: 3.125rem;
     display: flex;
     justify-content: space-between;
     
-}#headerContainer button{
+}
 
+#headerContainer button {
     width: 9.5rem;
     background-color: var(--green-500);
     color: var(--white);
     font-weight: 900;
     line-height: 160%;
     border-radius:6px;
+    cursor: pointer;
     
+}
+
+#headerContainer button:hover {
+    background-color: var(--green-300);
+    transition:background-color 0.2s;
+
+}
+
+#summary {
+    width: 100%;
+    max-width: 70rem;  
+    height:8.5625rem;
+    
+    margin: -5.125rem auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 2rem;
+
+}
+
+.summaryCards{
+    background-color: var(--gray-600);
+    border-radius: 6px;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    
+}
+
+.summaryCards header{
+    background-color: var(--gray-600);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 2rem;
+    color:#C4C4CC;
+    font-family:Roboto;
+    font-weight: bold;
+    line-height: 160%;
+}
+
+.summaryCards img {
+    height: 2rem;
+}
+
+#moneyLogo{
+    height: 2rem;
+}
+
+.summaryCards strong {
+    font-size: 2rem;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 140%;
+    display: block;
+    margin-top: .75rem;
 }

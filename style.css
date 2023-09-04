@@ -56,7 +56,6 @@ body > header {
 }
 
 .summaryCards header{
-    background-color: var(--gray-600);
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -84,4 +83,19 @@ body > header {
     line-height: 140%;
     display: block;
     margin-top: .75rem;
+}
+#saldoCard{
+    background-color:#015F43;
+}
+#valorSaldoContainer span {
+
+    font-size: 2rem;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 140%;
+    margin-top: 0.75rem;
+}
+#valorSaldoContainer {
+
+    display: flex;
 }
